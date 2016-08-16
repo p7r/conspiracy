@@ -9,7 +9,8 @@ digraph Conspiracy {
   manafort -> yanukovich [label="Used to work for"];
   yanukovich -> manafort [label="Gives money to"];
   putin -> yanukovich [label="Endorsed for President"];
-  yanukovich -> russia [label="Once ran for President of"];
+  yanukovich -> ukraine [label="One-time President of"];
+  russia -> ukraine [label="Invaded"];
   putin -> trump [label="Endorses"];
   putin -> russia [label="Controls"];
   ivanka -> wendy [label="Goes on holiday with"];
@@ -38,6 +39,7 @@ digraph Conspiracy {
   ukplc [label="United Kingdom"];
   whitehouse [label="United States of America"];
   russia [label="Russia"];
+  ukraine [label="Ukraine"];
   manafort [label="Paul Manafort"];
   yanukovich [label="Viktor Yanukovich"];
 
