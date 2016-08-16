@@ -1,0 +1,44 @@
+digraph Conspiracy {
+  graph[fontname="arial"];
+  node[shape=box];
+
+  trump -> ivanka [label="Married"];
+  trump -> putin [label="Claims to hate"];
+  trump -> whitehouse [label="Running for President of"];
+  manafort -> trump [label="Runs campaign for"];
+  manafort -> yanukovich [label="Used to work for"];
+  yanukovich -> manafort [label="Gives money to"];
+  putin -> yanukovich [label="Endorsed for President"];
+  yanukovich -> russia [label="Once ran for President of"];
+  putin -> trump [label="Endorses"];
+  putin -> russia [label="Controls"];
+  ivanka -> wendy [label="Goes on holiday with"];
+  wendy -> putin [label="Girlfriend of"];
+  wendy -> blair [label="May have had affair with"];
+
+  blair -> ukplc [label="Disliked ex-PM of"];
+  murdoch -> wendy [label="Divorced"];
+  murdoch -> blair [label="Endorsed"];
+  blair -> murdoch [label="Sucked up to"];
+  blair -> putin [label="Worked to exclude from G8"];
+  putin -> blair [label="Publicly disliked"];
+  whitehouse -> russia [label="Nukes pointed at"];
+  russia -> whitehouse [label="Nukes pointed at"];
+  whitehouse -> ukplc [label="Claims special relationship"];
+  ukplc -> whitehouse [label="Lapdog of"];
+  ukplc -> russia [label="Spies on"];
+  russia -> ukplc [label="Spies on"];
+
+  trump [label="Donald Trump"];
+  ivanka [label="Ivanka Trump"];
+  putin [label="Vladimir Putin"];
+  wendy [label="Wendy Deng"];
+  murdoch [label="Rupert Murdoch"];
+  blair [label="Tony Blair"];
+  ukplc [label="United Kingdom"];
+  whitehouse [label="United States of America"];
+  russia [label="Russia"];
+  manafort [label="Paul Manafort"];
+  yanukovich [label="Viktor Yanukovich"];
+
+}
