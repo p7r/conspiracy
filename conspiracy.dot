@@ -2,7 +2,7 @@ digraph Conspiracy {
   graph[fontname="arial"];
   node[shape=box];
 
-  trump -> ivanka [label="Married"];
+  trump -> ivanka [label="Creepy-handsy father to"];
   trump -> putin [label="Claims to hate"];
   trump -> whitehouse [label="Running for President of"];
   manafort -> trump [label="Runs campaign for"];
